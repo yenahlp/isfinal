@@ -1,0 +1,148 @@
+@font-face {
+    src: url(fonts/Monatta.ttf);
+    font-family: monatta;
+}
+
+@font-face {
+    src: url(fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf);
+    font-family: cgl;
+}
+.navbarhead {
+    font-family: monatta;
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a:hover.navbarhead {
+  text-decoration: none;
+}
+
+.navbarmenu {
+    font-family: cgl;
+    font-size: medium;
+    color: white;
+    padding: 5px 5px;
+    letter-spacing: 1px;
+    margin-left: 25px;
+}
+
+/* unvisited link */
+a:link {
+    color:white;
+    text-decoration: none;
+  }
+  
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+  .header {
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 0px 20px;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    font-family: cgl;
+    font-size: 20px;
+    color: white;
+  }
+
+.owtext {
+    font-family: cgl;
+    font-size: 20px;
+    color: white;
+}
+
+.owtext2 {
+    font-family: cgl;
+    font-size: 15px;
+    color: white;
+}
+
+.footer {
+    bottom: 10px;
+    height: 1px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    text-align: center;
+    color:white;
+    position: fixed;
+  }
+
+.tableaumainbody {
+    width: 80vw;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #FFCC00;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #FFCC00;
+  text-shadow: none;
+}
+
+.btn-primary {
+  background-color: #FFCC00;
+  border-color: #FFCC00;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #FFCC00;
+  border-color: #FFCC00;
+}
+
+.floating-label-form-group-with-focus label {
+  color: #FFCC00;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #FFCC00;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #FFCC00;
+}
+
+#mainNav.is-fixed .navbar-brand {
+  color: #212529;
+}
+#mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
+  color: #FFCC00;
+}
+#mainNav.is-fixed .navbar-nav > li.nav-item > a {
+  color: #212529;
+}
+#mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
+  color: #FFCC00;
+}
+
+a:focus, a:hover {
+  color: #FFCC00;
+}

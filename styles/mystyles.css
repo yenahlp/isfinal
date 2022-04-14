@@ -1,0 +1,29 @@
+
+.img-hover {
+    border: 5px;
+    border-color: blue;
+}
+.img-hover:hover {
+    box-shadow: 3px 6px #CCCCFF;
+    
+}
+.my-bold {
+    font-style:italic;
+    text-decoration: wavy;
+    font-weight: bolder;
+}
+.my-bold:hover {
+    color: #CCCCFF;
+}
+.byu-hover:hover {
+    color: #CCCCFF !important;
+}
+.my-font {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.marketing-bold {
+    font-weight: bold;
+}
+.small-font {
+    font-size: 10px;
+}
